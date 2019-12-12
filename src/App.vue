@@ -280,7 +280,8 @@
               format: 'YYYY-MM-DD HH:mm',
               id: 'DateTimePicker',
               minDate: '2018-04-05',
-              maxDate: '2018-04-24'
+              maxDate: '2018-04-24',
+              locale: 'ja'
             }
           },
           {
@@ -305,7 +306,8 @@
               format: 'YYYY-MM-DD',
               color: 'purple',
               label: 'Select date range',
-              id: 'RangeDatePicker'
+              id: 'RangeDatePicker',
+              locale: 'ja'
             }
           },
           {
@@ -325,7 +327,8 @@
               format: 'DD-MM-YYYY',
               formatted: 'll',
               right: true,
-              noLabel: true
+              noLabel: true,
+              locale: 'ja'
             }
           },
           {
@@ -344,7 +347,8 @@
               label: 'Select time',
               inputSize: 'sm',
               id: 'TimePicker',
-              noLabel: true
+              noLabel: true,
+              locale: 'ja'
             }
           },
           {
@@ -367,7 +371,8 @@
               range: true,
               id: 'InlinePicker',
               disabledWeekly: [0, 4, 6],
-              noKeyboard: true
+              noKeyboard: true,
+              locale: 'ja'
             }
           },
           {
@@ -380,7 +385,8 @@
             options: {
               disabled: true,
               label: 'Is Disabled',
-              id: 'DisabledPicker'
+              id: 'DisabledPicker',
+              locale: 'ja'
             }
           },
           {
@@ -394,7 +400,8 @@
               format: 'YYYY-MM-DD HH:mm',
               id: 'DateTimePicker',
               minDate: '2019-03-03 20:10',
-              maxDate: '2019-06-24 09:14'
+              maxDate: '2019-06-24 09:14',
+              locale: 'ja'
             }
           },
           {
@@ -408,7 +415,8 @@
               format: 'YYYY-MM-DD h:mm a',
               id: 'DateTimePicker',
               minDate: '2019-03-03 8:10 pm',
-              maxDate: '2019-03-24 9:14 am'
+              maxDate: '2019-03-24 9:14 am',
+              locale: 'ja'
             }
           },
           {
@@ -423,7 +431,8 @@
               disabledDates: ['2021-02-22'],
               enabledDates: ['2021-02-21', '2021-02-22', '2021-02-23'],
               inline: true,
-              format: 'YYYY-MM-DD HH:mm'
+              format: 'YYYY-MM-DD HH:mm',
+              locale: 'ja'
             }
           }
         ],
